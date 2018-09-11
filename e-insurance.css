@@ -1,0 +1,907 @@
+.main-box {
+    background: #f5f5f5;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.e-insurance {
+    background: #fff;
+    padding: 0 80px;
+}
+
+.e-insurance h3 {
+    line-height: 18px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.e-insurance h3 i {
+    display: inline-block;
+    height: 16px;
+    width: 4px;
+    background-color: #4c99eb;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+.e-insurance h3 a {
+    color: #4c99eb;
+    font-size: 16px;
+}
+
+.e-insurance h3 a.change-plan {
+    float: right;
+    padding-left: 22px;
+    background: url(./images/icon-change.png) left top no-repeat;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ff5400;
+}
+
+.process {
+    position: relative;
+    background: #F9FAFC;
+    height: 144px;
+    border: 1px solid #eee;
+    padding: 0 8%;
+    margin: 0 -80px 60px;
+}
+
+.process ul {
+    position: absolute;
+    width: 100%;
+    height: 144px;
+    z-index: 10;
+}
+
+.process ul li {
+    display: inline-block;
+    width: 21%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.process ul i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-style: normal;
+    line-height: 30px;
+    color: #fff;
+    background: url(./images/icon-circle-normal.png) left top no-repeat;
+    margin-bottom: 15px;
+}
+
+.process ul li.active span {
+    /* color:#4C99EB; */
+}
+
+.process ul li.active i {
+    background: url(./images/icon-circle-blue.png) left top no-repeat;
+}
+
+.process ul li.checked i {
+    background: url(./images/icon-circle-checked.png) left top no-repeat;
+}
+
+.process ul li.checked span {
+    color: #4C99EB;
+}
+
+.process .process-line {
+    position: absolute;
+    top: 62px;
+    left: 18%;
+    width: 64%;
+    height: 6px;
+    background: #dadada;
+}
+
+.process .process-line span {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 0%;
+    height: 6px;
+    background: #7c99eb;
+}
+
+.process .process-line span.step-two {
+    width: 33.33%;
+}
+.process .process-line span.step-three {
+    width: 66.66%;
+}
+
+/* 公司信息 */
+.company-info {
+    font-size: 16px;
+    padding: 30px 0 70px;
+    color: #666;
+}
+
+.company-info li {
+    line-height: 1;
+    padding: 10px 0;
+}
+
+.company-info i {
+    display: inline-block;
+    color: #F35455;
+    padding: 0 2px;
+    font-style: normal;
+}
+
+.company-info .company-info-left {
+    display: inline-block;
+    width: 50%;
+}
+
+.company-info .company-info-right {
+    float: right;
+    width: 49%;
+}
+
+.company-info .company-info-left span {
+    display: inline-block;
+    width: 34%;
+    text-align: right;
+}
+
+.company-info .company-info-left input {
+    width: 292px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 10px;
+    padding-right: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+.company-info .company-info-right li {
+    text-align: right;
+}
+
+.company-info .company-info-right input,
+.company-info .company-info-right select {
+    width: 292px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 10px;
+    padding-right: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+/* 经办人信息 */
+.agent-info {
+    font-size: 16px;
+    color: #666;
+    padding: 30px 0 30px;
+}
+
+.agent-info li {
+    line-height: 1;
+    padding: 10px 0;
+}
+
+.agent-info span {
+    display: inline-block;
+    width: 17%;
+    text-align: right;
+}
+
+/* 投保方案 */
+.guarantee-period {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #666666;
+    line-height: 1;
+    padding: 40px 20px 80px;
+}
+
+.guarantee-period span {
+    color: #4c99eb;
+    font-weight: bold;
+}
+
+.insurance-scheme {
+    position: relative;
+    padding: 40px 0 80px;
+}
+
+.insurance-scheme .add-plan {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-left: 22px;
+    background: url(./images/icon-add-plan.png) left top no-repeat;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #ff5400;
+}
+
+.insurance-scheme table th {
+    font-weight: bold;
+    height: 108px;
+}
+
+.insurance-scheme table .tit {
+    height: 54px;
+    line-height: 54px;
+}
+
+.insurance-scheme table .content {
+    height: 53px;
+    line-height: 53px;
+    border-top: 1px solid #eee;
+    color: #4c99eb;
+    font-weight: normal;
+}
+
+.insurance-scheme table td {
+    height: 50px;
+}
+
+.insurance-scheme table td,
+.insurance-scheme table th {
+    border: 1px solid #eee;
+    font-family: "MicrosoftYaHei";
+}
+
+.insurance-scheme table td.left {
+    text-align: left;
+    text-indent: 18px;
+}
+.insurance-scheme table strong{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    border-top: solid 1px #cccccc;
+    border-bottom: solid 1px #cccccc;
+    text-align: center;
+    font-weight: normal;
+}
+.insurance-scheme table a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 1px #cccccc;
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+    font-size: 17px;
+}
+.insurance-scheme table a:active{
+    border: solid 1px #4c99eb;
+    /* color: #4c99eb; */
+    background: #4c99eb;
+}
+
+/* 导入被保人 */
+.search-box {
+    padding: 58px 0 60px;
+}
+
+.search-box input,.search-box select {
+    width: 350px;
+    height: 32px;
+    border: solid 1px #dddddd;
+    text-indent: 10px;
+}
+
+.search-box span {
+    font-size: 16px;
+    color: #666;
+}
+
+.search-box .search-box-left {
+    position: relative;
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.search-box .search-box-icon{
+    position: absolute;
+    right: 6px;
+    top:5px;
+    width: 22px;
+    height: 22px;
+    background: url(./images/icon-search.png) no-repeat;
+    z-index: 10;
+}
+
+.search-box .search-box-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.search-box .search-box-right select{
+    margin-bottom: 20px;
+}
+
+
+.search-box .search-profession {
+    margin-bottom: 20px;
+    text-indent: 10px;
+    padding-right: 30px;
+}
+
+.upload-box {
+    padding: 0 14px;
+}
+
+.upload-content .add-file {
+    position: absolute;
+    left: 398px;
+    top: 3px;
+    width: 24px;
+    height: 24px;
+    background: url(./images/icon-file.png) center center no-repeat;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.upload-content p {
+    line-height: 32px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.upload-content p span {
+    padding: 0 10px;
+    cursor: pointer;
+    color: #4C99EB;
+}
+
+.upload-title {
+    display: inline-block;
+    padding: 37px 20px 0;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #666666;
+}
+
+.upload-templete {
+    float: right;
+    /* height: 108px; */
+    text-align: right;
+    padding-right: 22px;
+    padding-top: 32px;
+}
+
+.upload-templete a {
+    color: #4c99eb;
+    font-size: 16px;
+}
+
+.upload-content {
+    display: inline-block;
+    vertical-align: top;
+    padding: 40px 0;
+}
+
+.upload-content div {
+    position: relative;
+}
+
+.upload-content .file-box {
+    width: 350px;
+    height: 30px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    text-indent: 10px;
+    padding-right: 30px;
+}
+
+.upload-content a {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: #56baee;
+    background-image: linear-gradient(90deg, #397be6 0%, #56baee 100%), linear-gradient(#ff5300, #ff5300);
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.upload-content .file-domain {
+    opacity: 0;
+    position: absolute;
+    top: 2px;
+    left: 78px;
+    z-index: 100;
+    width: 350px;
+    height: 25px;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    cursor: pointer;
+    background-color: #56baee;
+    background-image: linear-gradient(90deg, #397be6 0%, #56baee 100%), linear-gradient(#ff5300, #ff5300);
+    cursor: pointer;
+}
+
+.upload-content .upload-tit {
+    display: inline-block;
+    height: 30px;
+    font-size: 16px;
+    color: #666;
+    vertical-align: bottom;
+    padding-right: 10px;
+}
+
+.upload-content .icon-suc {
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    height: 30px;
+    color: #10ab92;
+}
+
+.upload-content .icon-suc span {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 30px;
+}
+
+.upload-content .icon-suc strong {
+    font-weight: normal;
+    color: #333;
+    padding-left: 12px;
+}
+
+.upload-content .icon-loading {
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    height: 30px;
+    color: #10ab92;
+}
+
+.upload-content .icon-loading span {
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+
+.upload-content .icon-fai {
+    display: inline-block;
+    font-family: MicrosoftYaHei;
+    vertical-align: bottom;
+    height: 30px;
+    font-size: 16px;
+    color: #f35455;
+}
+
+.upload-content .icon-fai span {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 30px;
+}
+
+.import-list {
+    padding: 0px 14px 0;
+}
+
+.employee-title {
+    line-height: 16px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.employee-title a {
+    float: right;
+    width: 80px;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #397be6;
+    background-image: linear-gradient(90deg, #397be6 0%, #56baee 100%), linear-gradient(#cccccc, #cccccc);
+    margin-bottom: 18px;
+}
+
+.employee-title i {
+    display: inline-block;
+    height: 16px;
+    width: 4px;
+    background-color: #4c99eb;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+table {
+    width: 100%;
+    border: solid 1px #eeeeee;
+}
+
+table th {
+    height: 50px;
+    background-color: #eef2f8;
+    font-family: MicrosoftYaHei;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666666;
+}
+
+table.border th {
+    border-right: 1px solid #eeeeee;
+}
+
+table td {
+    text-align: center;
+    height: 50px;
+    background-color: #fff;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #666;
+}
+
+table td.highlight {
+    color: #FF5400;
+}
+
+table.border td {
+    border-right: 1px solid #eeeeee;
+}
+
+table td.total-num {
+    color: #FF5400;
+}
+
+table .odd td {
+    background-color: #f9fafc;
+}
+
+table td a {
+    color: #ff5400;
+}
+
+table td i,
+table th i {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url( //static.pension.taikang.com/tkpmall/imgs/icon/icon-box.png) center center no-repeat;
+        vertical-align: bottom;
+}
+
+table td i:hover,
+table th i:hover {
+    cursor: pointer;
+}
+
+table th i {
+    margin-right: 3px;
+}
+
+table tr.checked i {
+    background: url( //static.pension.taikang.com/tkpmall/imgs/icon/icon-box-checked.png) center center no-repeat;
+}
+
+table .color3 {
+    color: #333;
+}
+
+table .color6 {
+    color: #666;
+}
+
+table .color-blue {
+    color: #4c99eb;
+}
+
+table .color-red {
+    color: #ff5400;
+}
+
+table .bold {
+    font-weight: bold;
+    color: #333;
+}
+
+table .color-red a {
+    text-decoration: underline;
+}
+
+.employee-box .requesting {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.employee-box .requesting img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.employee-box .operationing {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background: rgba(255, 255, 255, .7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#b2ffffff, endcolorstr=#b2ffffff);
+}
+
+.employee-box .operationing img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.page-list {
+    height: 78px;
+    line-height: 46px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #666;
+    border: 1px solid #eee;
+    border-top: none;
+}
+
+.page-list .page-bar {
+    float: right;
+    padding-right: 28px;
+}
+
+.page-list .page-bar span {
+    float: left;
+    padding-top: 14px;
+    padding-right: 20px;
+    color: #666;
+}
+
+.page-bar ul {
+    float: left;
+    padding-top: 23px;
+}
+
+.page-bar ul li {
+    /* display: inline-block; */
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: solid 1px #f0f0f0;
+    border-radius: 2px;
+    color: #666;
+    margin: 0px 10px;
+}
+
+.page-bar ul li:hover {
+    cursor: pointer;
+}
+
+.page-bar ul li.active {
+    width: 30px;
+    height: 30px;
+    background: #04c0af;
+    border: solid 1px #04c0af;
+    color: #fff;
+}
+
+.page-bar ul li.empty {
+    width: 20px;
+    border: 0px;
+    margin: 0px;
+}
+
+.page-bar a {
+    float: left;
+    padding-top: 14px;
+    color: #666;
+}
+
+.page-bar .icon-pre-page {
+    padding-right: 10px;
+}
+
+.page-bar .icon-next-page {
+    padding-left: 5px;
+}
+
+.page-all {
+    padding-left: 30px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 14px;
+}
+
+.page-all span {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.page-all strong {
+    display: inline-block;
+    margin: 0 5px;
+    color: #ff5400;
+}
+
+.page-all>i {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url( //static.pension.taikang.com/tkpmall/imgs/icon/icon-box.png) center center no-repeat;
+        margin-bottom: -4px;
+}
+
+.page-all>i:hover {
+    cursor: pointer;
+}
+
+.page-all i.checked {
+    background: url( //static.pension.taikang.com/tkpmall/imgs/icon/icon-box-checked.png) center center no-repeat;
+}
+
+/* 确认按钮 */
+.next-page {
+    text-align: center;
+    padding: 40px 0 100px;
+}
+
+.next-page a {
+    display: inline-block;
+    width: 280px;
+    line-height: 41px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #dadada;
+    font-family: MicrosoftYaHei;
+    color: #fff;
+}
+
+.next-page a.active {
+    background-image: linear-gradient(90deg, #397be6 0%, #56baee 100%), linear-gradient(#e5e5e5, #e5e5e5);
+    background-color: #397be6;
+}
+.next-page .prepage-button{
+    margin-right: 15px;
+}
+.next-page .confirm-button{
+    margin-left: 15px;
+}
+
+/* 投保人 */
+.insured-info {
+    padding: 40px 0 80px;
+}
+
+.insured-info table td, .insured-info table th {
+    border: 1px solid #eee;
+    font-family: "MicrosoftYaHei";
+}
+
+.beneficiary {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #666666;
+    line-height: 1;
+    padding: 40px 20px 80px;
+}
+
+.beneficiary span {
+    color: #4c99eb;
+}
+
+.effect-time {
+    position: relative;
+    padding: 40px 0 80px;
+    line-height: 31px;
+    font-family: MicrosoftYaHei;
+    font-weight: normal;
+    font-size: 16px;
+    color: #666666;
+}
+
+.effect-time input {
+    float: left;
+    width: 350px;
+    height: 30px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 10px;
+    background: url(./images/icon-date.png) 310px center no-repeat;
+    cursor: pointer;
+}
+
+.effect-time strong {
+    float: left;
+    padding-left: 14px;
+    font-weight: normal;
+    color: #666;
+    ;
+}
+
+.effect-time span {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    padding: 0 24px;
+    border-radius: 3px;
+    border: 1px solid #FACD89;
+    background: #FFF7EB;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.effect-time i.icon-arrow {
+    position: absolute;
+    left: -9px;
+    top: 9px;
+    width: 12px;
+    height: 12px;
+    background: url(./images/icon-arrow.jpg) center center no-repeat;
+}
+
+.effect-time i.date-number {
+    float: left;
+    font-style: normal;
+    font-size: 16px;
+    color: #4c99eb;
+}
+
+/* 产品经理人 */
+.manager-info {
+    padding: 40px 0 100px;
+}
+
+.manager-info.scheme-confirmation {
+    padding: 40px 0 60px;
+}
+
+.agreement {
+    line-height: 22px;
+    text-align: center;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #666;
+}
+.agreement span{
+    cursor: pointer;
+}
+.agreement i{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    cursor: pointer;
+    background: url(./images/icon-unchecked.png) center center no-repeat;
+}
+.agreement i.checked{
+    background: url(./images/icon-checked.png) center center no-repeat;
+}

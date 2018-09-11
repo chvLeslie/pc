@@ -1,0 +1,228 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: "Hiragino Sans GB","Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	font-family: "Hiragino Sans GB","Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.content1280 {
+	width: 1280px;
+	margin: 0 auto;
+}
+.content1180 {
+	width: 1180px;
+	margin: 0 auto;
+}
+.content1144 {
+	width: 1144px;
+	margin: 0 auto;
+}
+
+.content1174 {
+	width: 1174px;
+	margin: 0 auto;
+}
+.content1060 {
+	width: 1060px;
+	margin: 0 auto;
+}
+.clear:after {
+	content: ".";
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	display: block;
+}
+
+input:-webkit-autofill {
+	background-color: #FAFFBD;
+	background-image: none;
+	color: #000;
+}
+
+@keyframes bounceInDown {
+	from,
+	60%,
+	75%,
+	90%,
+	to {
+		animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	}
+	0% {
+		opacity: 0;
+		transform: translate3d(0, -3000px, 0);
+	}
+	60% {
+		opacity: 1;
+		transform: translate3d(0, 25px, 0);
+	}
+	75% {
+		transform: translate3d(0, -10px, 0);
+	}
+	90% {
+		transform: translate3d(0, 5px, 0);
+	}
+	to {
+		transform: none;
+	}
+}
+/*--------------tk助手--------------------*/
+#automanid:hover #aotuman_desc {
+	display: block;
+}
+
+#automanid {
+	position: fixed;
+	width: 100px;
+	background: url(../img/tkgoodsman.gif) no-repeat center center;
+	background-size:100px 100px ;
+	height: 100px;
+	z-index: 10;
+	right: 50px;
+	bottom: 50px;
+	animation: bounceInDown 5s;
+	cursor: pointer;
+}
+#automanid img{
+	
+}
+#aotuman_desc {
+	display: none;
+	position: absolute;
+	left: -130px;
+	top: -30px;
+	background: #ffffff;
+	padding: 10px;
+	border: 1px solid #ff5400;
+	border-radius: 10px;
+	color: #333333;
+}
+#headerbg {
+	display: none;
+}
+.login_header {
+	display: none;
+}
+.newcut {
+	display: none;
+}
+#planeid{
+	width: 225px;
+    height: 55px!important;
+   position: fixed;
+    bottom: 280px!important;
+    right: 0px;
+    z-index: 999;
+    cursor: pointer;
+    animation: bounceInDown 5s;
+	}
